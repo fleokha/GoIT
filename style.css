@@ -1,0 +1,24 @@
+    body{
+    margin: 0;
+    background-color: #D8D8D8;
+    }
+   .shadow {
+    margin: 2% 23% 5%;
+    width: 70;
+    background: white; /* Цвет фона */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    padding: 10px;
+   }
+    h1 {
+        text-align: center;
+    }
+    div.photo {
+        text-align: center;
+    }
+    div.text, ul {
+        margin-left: 25%;
+        font-size: 20px;
+    }
+    hr {
+        width: 55%;
+    }

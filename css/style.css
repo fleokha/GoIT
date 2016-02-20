@@ -1,0 +1,118 @@
+body {
+	margin: 0px;
+	background: white; /* Цвет фона */
+}
+.vline {
+	margin: 0% 10% 0%;
+    width: 1050;
+    background: #ffffff; /* Цвет фона */
+    box-shadow: 0 0 5px rgba(0,0,0,0.2); /* Параметры тени */
+    padding: 10px;
+}
+.main {
+	width:950px;
+	height:700px;
+	margin: 50px 60px;
+	background-color: white; /* Цвет меню (почти белый) */
+}
+.logo {
+	width:140px; /*Высота логотипа*/
+	height:40px; /*Ширина логотипа*/
+}
+.menu {
+	width:950px;
+	height:40px;
+	margin-top: 40px;
+	background-color: 555555; /* Цвет меню (почти черный) */
+}
+.menu ul {
+	padding: 0px;
+	height:40px;
+	background-color: 555555; /* Цвет меню (почти черный) */
+}
+.menu li {
+    display: inline-block; /* Строчно-блочные элементы */
+    background: #575757; /* Цвет фона */
+    margin-right: 3px; /* Расстояние между пунктами меню */
+    padding-left: 1px;
+    padding-right: 1px;
+   }
+.menu a {
+    height:20px;
+    padding: 10px 15px 10px 25px; /* Поля вокруг текста */
+    color: #fff; /* Цвет ссылок */
+    text-decoration: none; /* Убираем подчеркивание */
+    display: block; /* Блочный элемент */
+   }
+.menu li:hover {
+	background: #424242; /* Цвет фона при наведении курсора мыши */
+    outline: 1px solid white;
+   }
+.sdvig {
+	width:150px;
+	height:40px;
+	margin-top: 40px;
+	background-color: white; /* Цвет меню (почти черный) */
+}
+.sdvig ul {
+	margin-left: 13px; /* Отступ слева в браузере IE и Opera */
+    padding-left: 13px; /* Отступ слева в браузере Firefox, Safari, Chrome */
+    list-style-type: none;
+}
+.sdvig li {
+    margin-bottom: 15px;     
+}
+.sdvig a {
+ 	-moz-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+ 	-webkit-transition: all 0.1s ease-in-out;
+ 	text-decoration: none;
+ 	color:#222;
+ 	display:block;
+ }
+.sdvig a:hover {
+ 	-webkit-transform: translate(8px,0);
+ 	-moz-transform: translate(8px,0);
+ 	-o-transform: translate(8px,0);
+ 	color: black;
+ }
+ .photo {
+	margin-left: 350px;
+}
+p {
+	margin-left: 300px;	
+}
+.footbar {
+	width:950px;
+	height:40px;
+	margin: 50px 60px;
+	background-color: #e1e1e1; /* Цвет меню серый */
+}
+.footbar ul {
+	padding: 0px;
+	height:40px;
+	background-color: #e1e1e1; /* Цвет меню серый */
+}
+.footbar li {
+    display: inline-block; /* Строчно-блочные элементы */
+    background: #e1e1e1; /* Цвет фона серый */
+    margin-right: 3px; /* Расстояние между пунктами меню */
+    padding-left: 1px;
+    padding-right: 1px;
+   }
+.footbar a {
+    height:20px;
+    padding: 10px 15px 10px 25px; /* Поля вокруг текста */
+    color: black; /* Цвет ссылок */
+    text-decoration: none; /* Убираем подчеркивание */
+    display: block; /* Блочный элемент */
+   }
+.footbar li:hover {
+	text-decoration: underline; /* Включаем подчеркивание */
+}
+
+#rigths {
+	float: right;
+	text-decoration: none; /* Убираем подчеркивание */
+	margin-top: 10px;
+}

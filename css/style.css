@@ -4,7 +4,7 @@ body {
 }
 .vline {
 	margin: 0% 10% 0%;
-    width: 1050;
+    width: 1060;
     background: #ffffff; /* Цвет фона */
     box-shadow: 0 0 5px rgba(0,0,0,0.2); /* Параметры тени */
     padding: 10px;
@@ -16,21 +16,20 @@ body {
 	background-color: white; /* Цвет меню (почти белый) */
 }
 .logo {
-	width:140px; /*Высота логотипа*/
+	width:145px; /*Высота логотипа*/
 	height:40px; /*Ширина логотипа*/
+	background-image: url(../img/logo.jpg);
 }
 .menu {
 	width:950px;
 	height:40px;
 	margin-top: 40px;
-	/*background-color: 555555;*/ /* Цвет меню (почти черный) */
-	background: #555555;
+	background: #555555; /* Цвет меню (почти черный) */
 }
 .menu ul {
 	padding: 0px;
 	height:40px;
-	/*background-color: 555555;*/ /* Цвет меню (почти черный) */
-	background: #555555;
+	background: #555555; /* Цвет меню (почти черный) */
 }
 .menu li {
     display: inline-block; /* Строчно-блочные элементы */
@@ -38,18 +37,18 @@ body {
     margin-right: 3px; /* Расстояние между пунктами меню */
     padding-left: 1px;
     padding-right: 1px;
-   }
+}
 .menu a {
     height:20px;
     padding: 10px 15px 10px 25px; /* Поля вокруг текста */
     color: #fff; /* Цвет ссылок */
     text-decoration: none; /* Убираем подчеркивание */
     display: block; /* Блочный элемент */
-   }
+}
 .menu li:hover {
 	background: #424242; /* Цвет фона при наведении курсора мыши */
     outline: 1px solid white;
-   }
+}
 .sdvig {
 	width:250px;
 	height:40px;
@@ -71,15 +70,18 @@ body {
  	text-decoration: none;
  	color:#222;
  	display:block;
- }
+}
 .sdvig a:hover {
  	-webkit-transform: translate(8px,0);
  	-moz-transform: translate(8px,0);
  	-o-transform: translate(8px,0);
  	color: black;
- }
+}
  .photo {
+ 	width:500px; /*Высота логотипа*/
+	height:307px; /*Ширина логотипа*/
 	margin-left: 325px; /* Сдвиг фото влево */
+	background-image: url(../img/photo.jpg);
 }
 p {
 	margin-left: 300px;	
@@ -101,14 +103,14 @@ p {
     margin-right: 3px; /* Расстояние между пунктами меню */
     padding-left: 1px;
     padding-right: 1px;
-   }
+}
 .footbar a {
     height:20px;
     padding: 10px 15px 10px 25px; /* Поля вокруг текста */
     color: black; /* Цвет ссылок */
     text-decoration: none; /* Убираем подчеркивание */
     display: block; /* Блочный элемент */
-   }
+}
 .footbar li:hover {
 	text-decoration: underline; /* Включаем подчеркивание */
 }

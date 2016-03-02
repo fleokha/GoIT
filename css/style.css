@@ -4,7 +4,6 @@ body {
 }
 .vline {
 	margin: 0% 10% 0%;
-    width: 1060;
     background: #ffffff; /* Цвет фона */
     box-shadow: 0 0 5px rgba(0,0,0,0.2); /* Параметры тени */
     padding: 10px;
@@ -53,24 +52,33 @@ body {
 	width:250px;
 	height:40px;
 	margin-top: 40px;
-	background-color: white; /* Цвет меню (почти черный) */
+	background-color: white; /* Цвет меню */
 }
 .sdvig ul {
-	margin-left: 13px; /* Отступ слева в браузере IE и Opera */
-    padding-left: 13px; /* Отступ слева в браузере Firefox, Safari, Chrome */
+	margin-left: 0px; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0px; /* Отступ слева в браузере Firefox, Safari, Chrome */
     list-style-type: none;
 }
 .sdvig li {
-    margin-bottom: 15px;     
+    margin-bottom: 15px;
+    border: 1px grey solid; /*Устанавливаем гранизу эл-та списка*/
+	border-bottom: none; /*Убираем границу внизу эл-та списка*/
+    margin-bottom: 0px;
+    padding-left: 20px;
+}
+ul li:last-child {
+	border-bottom:1px grey solid; /*Добавляем границу для последнего эл-та списка*/
 }
 .sdvig a {
+	height:40px;
+	line-height: 40px;
  	-moz-transition: all 0.1s ease-in-out;
 	-o-transition: all 0.1s ease-in-out;
  	-webkit-transition: all 0.1s ease-in-out;
  	text-decoration: none;
  	color:#222;
  	display:block;
-}
+ }
 .sdvig a:hover {
  	-webkit-transform: translate(8px,0);
  	-moz-transform: translate(8px,0);
@@ -78,10 +86,15 @@ body {
  	color: black;
 }
  .photo {
- 	width:500px; /*Высота логотипа*/
-	height:307px; /*Ширина логотипа*/
-	margin-left: 325px; /* Сдвиг фото влево */
+ 	width:680px; /* Высота */
+	height:400px; /* Ширина */
+	margin-top: -40px;
+	margin-left: 270px; /* Сдвиг фото влево */
 	background-image: url(../img/photo.jpg);
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: 1px grey solid;
 }
 p {
 	margin-left: 300px;	

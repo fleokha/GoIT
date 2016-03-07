@@ -1,0 +1,252 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-image: url(../img/bg.png);
+	background-attachment: fixed;
+	background-position: top left;
+	background-repeat: repeat-x;
+}
+.main {
+	width: 988px;
+	height: 1000px;
+	background-color: #ffffff;
+	display: block;
+	margin: 0 25% 1% 25%;
+	border-top: none;
+	border-bottom: 3px solid black;
+	box-shadow:  0px -10px 15px rgba(0,0,0,0.5);
+	z-index: 0;
+}
+.header {
+	height: 175px;
+	width: auto;
+	background-color: white;
+	position: relative;
+ 	z-index: 9999;
+}
+.logo {
+	width:283px;
+	height:164px;
+	background-image: url(../img/logo.png);
+	margin-left: 28px;
+	float: left;
+}
+.travels p {
+	text-align: center;
+	padding-top: 90px;
+	margin-left: -10px;
+	color: #128aa7;
+	font-family: Tahoma;
+	font-size: 12pt;
+}
+.contacts {
+	float: right;
+	margin-right: 30px;
+	color: #128aa7;
+	font-family: Tahoma;
+	font-size: 12pt;
+}
+.india {
+	width: 42px;
+	height: 42px;
+	background-image: url(../img/india.png);
+	position: absolute;
+	top: 110px;
+	left: 480px;
+}
+.nepal {
+	width: 42px;
+	height: 42px;
+	background-image: url(../img/nepal.png);
+	position: absolute;
+	top: 110px;
+	left: 551px;
+}
+.tibet {
+	width: 42px;
+	height: 42px;
+	background-image: url(../img/tibet.png);
+	position: absolute;
+	top: 110px;
+	left: 623px;
+}
+.butan {
+	width: 42px;
+	height: 42px;
+	background-image: url(../img/butan.png);
+	position: absolute;
+	top: 110px;
+	left: 696px;
+}
+.ceylon {
+	width: 42px;
+	height: 42px;
+	background-image: url(../img/ceylon.png);
+	position: absolute;
+	top: 110px;
+	left: 784px;
+}
+.mald {
+	width: 42px;
+	height: 42px;
+	background-image: url(../img/mald.png);
+	position: absolute;
+	top: 110px;
+	left: 883px;
+}
+.flag li {
+    display: inline-block; /* Строчно-блочные элементы */
+    margin-top: 150px;
+    margin-right: 30px; /* Расстояние между пунктами меню */
+    padding-left: 1px;
+    padding-right: 1px;
+  	float: right;
+}
+.flag a {
+    height:20px;
+    color: #128aa7; /* Цвет ссылок */
+    display: block; /* Блочный элемент */
+	font-family: Tahoma;
+	font-size: 10pt;
+}
+.flags {
+	background-repeat: no-repeat;
+	margin-right: -180px;
+  	float: right;
+}
+.flags li {
+    display: inline-block; /* Строчно-блочные элементы */
+    margin-top: 150px;
+    margin-right: 30px; /* Расстояние между пунктами меню */
+    padding-left: 1px;
+    padding-right: 1px;
+  	float: right;
+}
+.flags a {
+    height:20px;
+    /*padding: 10px 15px 10px 25px;*/ /* Поля вокруг текста */
+    color: #128aa7; /* Цвет ссылок */
+    display: block; /* Блочный элемент */
+	font-family: Tahoma;
+	font-size: 10pt;
+}
+.beach {
+	width: 990px;
+	height: 237px;
+	background-image: url(../img/beach.png);
+	background-repeat: no-repeat;
+	border-top: 1px solid black;
+	border-bottom: 1px solid blue;
+}
+.menu {
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+	font-family: Georgia;
+	font-size: 11pt;
+	margin-top: 2px;
+	border-bottom: 1px solid black;
+	}
+.menu li {
+	list-style: none;
+	float: left;
+	height: 35px;
+	padding: 0;
+	margin: 0;
+	width: 141px;
+	text-align: center;
+	background: #313131;
+	position: relative;
+	padding-top: 12px;
+	box-shadow:  0px 2px 7px rgba(0,0,0,0.5);
+	border-bottom: 1px solid black;
+	}
+.menu li ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 141px;
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 45px;
+
+	}
+.menu li ul li {
+	float: none;
+	height: 33px;
+	margin: 0;
+	width: 141px;
+	text-align: center;
+	background: #313131;
+	box-shadow:  0px 3px 0px rgba(0,0,0,0.5);
+	border-bottom: none;
+	}
+.menu li a {
+	display: block;
+	width: 141px;
+	height: 33px;
+	color: #fff;
+	text-decoration: none;
+	}
+.menu li:hover ul, .menu li.jshover ul {
+	display: block;
+	}
+.menu li:hover, .menu li.jshover {
+	background: #313131;
+	}
+
+.fon {
+	width: 988px;
+	overflow: hidden; /* чтобы лишее обрезалось */
+}
+.leftColumn {
+	width: 210px;
+	float: left;
+	background: #edeef0;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+}
+.centerColumn {
+	width: 560px;
+	float: left;
+	background: white;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+}
+.rightColumn {
+	width: 218px;
+	float: left;
+	background: #edeef0;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+}
+.info {
+	margin-top: 10px;
+	text-align: center;
+	font-weight: bold;
+	font-family: Tahoma;
+	font-size: 18px;
+}
+.news {
+	margin-top: 10px;
+	text-align: center;
+	font-weight: bold;
+	font-family: Tahoma;
+	font-size: 18px;
+}
+p {
+	line-height: 1.5;
+	margin-left: 10px;
+	font-family: Tahoma;
+	font-size: 16px;
+}
+.copyright p {
+	text-align: center;
+	padding-right: 20px;
+	margin: 20px;
+	color: white;
+	font-size:  x-large;
+}

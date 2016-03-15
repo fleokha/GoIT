@@ -1,0 +1,52 @@
+table {
+	margin: auto;
+	width: 250px;
+	height: 270px;
+    border-spacing: 0px; /* Расстояние между ячейками */
+    border-collapse: collapse; /* Способ отображения границы */
+    border: 1px solid white;
+}
+td {
+	border: 5px solid;
+	border-right: none;
+}
+.aa, .ab, .ac, .ad, .ae, .af, .ag, .ah {
+	border-top: none;
+}
+.aa, .ba, .ca, .da, .ea, .fa, .ga, .ha, .ia {
+	border-left: none;
+}
+.ga, .ia, .ib, .ic, .id, .ie, .if, .ig, .ih {
+	border-bottom: none;
+}
+.ad {
+	background-color: rgb(255,255,105);
+}
+.ga {
+	background-color: rgb(255,255,105);	
+}
+.bb {
+	background-color: rgb(255,96,59);
+}
+.bg {
+	background-color: rgb(255,255,105);	
+}
+.db {
+	width: 40px;
+}
+.ge {
+	background-color: rgb(6,68,128);	
+}
+.hc {
+	background-color: rgb(0,0,0);
+}
+.fa {
+	background-color: rgb(0,0,0);
+	border-bottom-color: rgb(0,0,0);
+}
+.gb {
+	background-color: rgb(0,0,0);
+}
+.ha {
+	border-bottom-color: rgb(255,255,255);
+}

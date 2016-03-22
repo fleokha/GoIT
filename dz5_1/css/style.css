@@ -9,7 +9,7 @@ body {
 }
 @font-face {
 	font-family: "Helvetica Neue"; /* Имя шрифта */
-    src: url(fonts/HelveticaNeue.ttf); /* Путь к файлу со шрифтом */
+    src: url(../fonts/HelveticaNeue.ttf); /* Путь к файлу со шрифтом */
 }
 .menu {
 	height: 36px;
@@ -43,10 +43,117 @@ a:hover {
     text-decoration: none; /* Убираем подчеркивание */
    }
 .mihas {
-/*	margin-top: 15px;
-	padding-left: 10px;*/
+	padding-left: 25px !important;
+	background-position: center left 3px;
 	background-image: url(../img/flag.png); /* Путь к фоновому изображению */
 	background-repeat: no-repeat;
 	color: #ffffff !important;
 	border-left: 1px solid #60b5ed;
+}
+.ola {
+	padding-left: 7px !important;
+	padding-right: 7px !important;
+	background: linear-gradient(to top, #2e7ac4, #4eabda);
+	color: #ffffff !important;
+}
+.pic {
+	background-image: url(../img/velo.jpg);
+	background-repeat: no-repeat;
+	width: 1215px;
+	height: 1064px;
+	margin-top: -10px;
+}
+.cadastre {
+	width: 560px;
+	height: 62px;
+	background: rgba( 0, 0, 0, 0.5);  /* чистый черный с прозрачностью 50% */
+	position: relative; 
+	left: -1%; 
+	top: 8.5%; 
+	margin-left: 350px;
+	margin-top: 10px;
+}
+.cadastre-se {
+	padding: 17px 217px;
+	font-family: "Helvetica Neue", Tahoma;
+	font-size: 24px;
+	color: white;
+}
+.form {
+	width: 560px;
+	height: 550px;
+	background: rgba( 0, 0, 0, 0.5);  /* чистый черный с прозрачностью 50% */
+	position: relative; 
+	left: 50%; 
+	top: 50%; 
+	margin-left: -270px; 
+	margin-top: -440px;
+}
+.facebook {
+	width: 276px;
+	height: 35px;
+	position: absolute;
+	background-image: url(../img/facebook.png);
+	background-repeat: no-repeat;
+	margin: 36px 142px;
+}
+.form p {
+	color: #999b99;
+	text-align: center;
+	padding-top: 102px;
+}
+.form2 {
+	width: 375px;
+	height: 275px;
+	position: absolute;
+	padding: 21px 142px;
+}
+input {
+	width: 276px;
+	height: 35px;
+	margin-top: 15px;
+	text-align: left;
+	padding-left: 20px;
+	background-color: 0f0f0f;
+	border: none;
+	border-bottom: 1px solid grey;
+	color: white;
+}
+::-webkit-input-placeholder {
+	color:#d6d8d9;
+}
+::-moz-placeholder {
+	color:#d6d8d9;
+}
+:-ms-input-placeholder {
+	color:#d6d8d9;
+}
+input:focus { 
+    background-color: #1b5288;
+	box-shadow: 0px 0px 5px 5px #406e8e;
+	border-bottom: 1px solid #689bcc;
+ }
+.button {
+	background: linear-gradient(to top, #2e7ac4, #4ca9d9);
+	text-align: center;
+} 
+label {
+	color: white;
+	margin-top: none;
+	text-align: left;
+	padding-left: none;
+	padding-bottom: 15px;
+	padding-left: -50px;
+	color: black;
+}
+.checkbox {
+	width: 15px;
+	height: 15px;
+	text-align: left;
+}
+span {
+	margin-left: -65px;
+	font-size: 12px;
+	text-align: center;
+	color: #cccccc;
 }
